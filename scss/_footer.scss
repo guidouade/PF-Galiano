@@ -1,0 +1,24 @@
+.footer {
+    background-color: rgba(4, 47, 0, 0.8); /* Define el color del fondo */
+    text-align: center; /* Define si va estar a la derecha, al medio, a la izquiera y justificado */
+    height: 41%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ @media (max-width: 992px) {
+   .footer {
+     background-color: rgba(4, 47, 0, 0.8); /* Define el color del fondo */
+     text-align: center; /* Define si va estar a la derecha, al medio, a la izquiera y justificado */
+     height: 15rem;
+     width: 61rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     a {
+       font-size: 120%;
+     }
+   }
+ }
